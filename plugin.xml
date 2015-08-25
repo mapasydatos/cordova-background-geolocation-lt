@@ -13,13 +13,11 @@
         <engine name="cordova" version=">=3.0.0" />
     </engines>
 
-    <!-- 
-        Pre-Cordova 5, non-npm plugin reference.  Uncomment this if you're not using Cordova 5.
+    <!-- Pre-Cordova 5, non-npm plugin reference.  Uncomment this if you're not using Cordova 5. -->
     <dependency id="org.apache.cordova.dialogs" />
-    -->
 
     <!-- Cordova 5 npm-style plugin referernce.  Comment this out if you're not using Cordova 5 -->
-    <dependency id="cordova-plugin-dialogs" />
+    <!--<dependency id="cordova-plugin-dialogs" />-->
 
     <js-module src="www/BackgroundGeolocation.js" name="BackgroundGeolocation">
         <clobbers target="window.BackgroundGeolocation" />
